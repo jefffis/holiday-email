@@ -26,6 +26,17 @@
 		img {
 			max-width: 100%;
 		}
+		img {
+			border-radius: 100%;
+		}
+		.header {
+			max-width: 70px;
+			box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
+		}
+		.inline {
+			max-width: 50px;
+			box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+		}
 		.h1 {
 			color: white;
 			font-size: 34px;
@@ -74,7 +85,7 @@
 		}
 		a.btn {
 			background: #FD540C;
-			border-radius: 4px;
+			border-radius: 5px;
 			color: white;
 			display: inline-block;
 			font-size: 20px;
@@ -84,9 +95,16 @@
 			text-decoration: none;
 			
 		}
+		.btn:active {
+			background: #8F2201;
+			color: rgba(255,255,255,0.75);
+		}
 		a.white {
 			background: #077D4C;
 			/*color: #FD540C;*/
+		}
+		.white:active {
+			background: #045E39;
 		}
 		.wrapper {
 			/*background: white;
@@ -157,7 +175,7 @@
 						<td class="body">
 
 							<!-- header stuff begin -->
-							<img src="https://cdn3.iconfinder.com/data/icons/ballicons-free/128/wine.png" alt="replace with your own img & save as non-transparent GIF" />
+							<img src="https://cdn3.iconfinder.com/data/icons/ballicons-free/128/wine.png" alt="replace with your own img & save as non-transparent GIF" class="header" />
 							<hr />
 							<span class="h1">Seasons greetings from A to B.</span>
 							<hr />
@@ -215,7 +233,7 @@
 					<td class="body sub center">
 
 						<!-- main article begin -->
-						<img src="http://pixelbuddha.net/ballicons2/upload/icons/5.png" alt="replace with your own img & save as non-transparent GIF" />
+						<img src="http://pixelbuddha.net/ballicons2/upload/icons/5.png" alt="replace with your own img & save as non-transparent GIF" class="inline" />
 						<hr class="clr" />
 						<span class="h2">Plaid leggings put a bird.</span>
 						<br /><br />
@@ -236,7 +254,7 @@
 						<hr />
 
 						<!-- sub article begin -->
-						<img src="http://pixelbuddha.net/ballicons2/upload/icons/5.png" alt="replace with your own img & save as non-transparent GIF" />
+						<img src="http://pixelbuddha.net/ballicons2/upload/icons/5.png" alt="replace with your own img & save as non-transparent GIF" class="inline" />
 						<hr class="clr" />
 						<span class="h2">Plaid leggings put a bird.</span>
 						<br /><br />
